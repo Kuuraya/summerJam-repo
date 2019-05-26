@@ -22,6 +22,5 @@ public class climbWallScript : MonoBehaviour
         if (other.attachedRigidbody)
             //other.attachedRigidbody.AddForce(Vector3.up * 0);
             other.attachedRigidbody.velocity = new Vector3(0, -1.0F, 0);
-            Physics.gravity = new Vector3(0, -1.0F, 0);
     }
 }
